@@ -40,9 +40,9 @@ namespace DoneTechno.FizzBuzz.Specs.Features
         public static void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Features", "FizzBuzz", "\tWrite a program that prints the numbers from 1 to 100. \r\n\tBut for multiples of t" +
-                    "hree print “Fizz” instead of the number and for the multiples of five print “Buz" +
-                    "z”. \r\n\tFor numbers which are multiples of both three and five print “FizzBuzz”.", ProgrammingLanguage.CSharp, featureTags);
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Features", "FizzBuzz", "\tWrite a program that prints the numbers from 1 to 100. \n\tBut for multiples of th" +
+                    "ree print “Fizz” instead of the number and for the multiples of five print “Buzz" +
+                    "”. \n\tFor numbers which are multiples of both three and five print “FizzBuzz”.", ProgrammingLanguage.CSharp, featureTags);
             testRunner.OnFeatureStart(featureInfo);
         }
         

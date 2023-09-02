@@ -2,5 +2,12 @@
   "image": "mcr.microsoft.com/devcontainers/dotnet:0-7.0",
   "features": {
     "ghcr.io/devcontainers/features/dotnet:1": {}
-  }
+},
+"customizations": {
+	"vscode": {
+		"extensions": [
+			"ms-dotnettools.csdevkit"
+		]
+	}
+}
 }
