@@ -5,10 +5,10 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        Console.WriteLine("Hello World!");
+        Run();
     }
 
-    public void Run()
+    public static void Run()
     {
         Console.WriteLine("Hello World!");
     }
